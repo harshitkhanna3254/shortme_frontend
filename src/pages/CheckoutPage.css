@@ -1,0 +1,80 @@
+/* CheckoutPage.css */
+
+.checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .checkout-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .checkout-header p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .checkout-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    margin-bottom: 15px;
+  }
+  
+  .form-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-section input[type="text"],
+  .form-section input[type="email"],
+  .form-section select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .expiration-inputs {
+    display: flex;
+  }
+  
+  .expiration-inputs input[type="text"] {
+    width: 45%;
+    margin-right: 10px;
+  }
+  
+  .checkout-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #268048;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #34D399;
+  }
+  

@@ -1,0 +1,64 @@
+.account-info-container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-heading {
+    color: #131921;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eaeded;
+  }
+  
+  .billing-info {
+    background-color: #eaeded;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .account-details {
+    margin-bottom: 1rem;
+  }
+  
+  .account-detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .account-detail-item label {
+    font-weight: 600;
+    color: #131921;
+  }
+  
+  .account-detail-value {
+    background-color: #f3f3f3;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-family: monospace;
+    width: 60%; 
+    text-align: right;
+  }
+  
+  .edit-btn {
+    background-color: #10B981; 
+    border: 1px solid #268048; 
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.edit-btn:hover {
+    background-color: #34D399; 
+}
